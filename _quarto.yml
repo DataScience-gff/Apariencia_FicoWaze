@@ -8,7 +8,7 @@ book:
     author: Data Science
     # date: today
     date-format: iso
-    favicon: TSAfav.png
+    favicon: logo_.png
     cover-image: logo_.png
     #repo-url: https://github.com/vlyubchich/tsar/
     #repo-branch: master
