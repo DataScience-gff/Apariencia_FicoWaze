@@ -34,8 +34,4 @@ FicoWaze en toda la organización.
 
 ## Authors {.unnumbered}
 
-David Antonio Aguirre Sierra
-
-Francis Ruby Gonzales Ramos
-
-Bessy Elionor Guzman Guzman
+© Data Science 2025. Derechos Reservados
