@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Data Science">
 
-<title>FicoWaze</title>
+<title>2&nbsp; Estructura y Estilo de los Tableros (Dashboards) – FicoWaze</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./l01_regression.html" rel="next">
+<link href="./l03_smoothing.html" rel="next">
+<link href="./l01_regression.html" rel="prev">
 <link href="./logo_.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./l02_tsintro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Estructura y Estilo de los Tableros (Dashboards)</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome</span></a>
   </div>
 </li>
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./l02_tsintro.html" class="sidebar-item-text sidebar-link">
+  <a href="./l02_tsintro.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Estructura y Estilo de los Tableros (Dashboards)</span></span></a>
   </div>
 </li>
@@ -148,8 +148,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
-  <li><a href="#authors" id="toc-authors" class="nav-link" data-scroll-target="#authors">Authors</a></li>
+  <li><a href="#título-del-dashboard" id="toc-título-del-dashboard" class="nav-link active" data-scroll-target="#título-del-dashboard"><span class="header-section-number">2.1</span> Título del Dashboard</a></li>
+  <li><a href="#gráficos" id="toc-gráficos" class="nav-link" data-scroll-target="#gráficos"><span class="header-section-number">2.2</span> Gráficos</a></li>
+  <li><a href="#segmentación-de-datos" id="toc-segmentación-de-datos" class="nav-link" data-scroll-target="#segmentación-de-datos"><span class="header-section-number">2.3</span> Segmentación de Datos</a>
+  <ul class="collapse">
+  <li><a href="#títulos-de-segmentación" id="toc-títulos-de-segmentación" class="nav-link" data-scroll-target="#títulos-de-segmentación"><span class="header-section-number">2.3.1</span> Títulos de segmentación:</a></li>
+  <li><a href="#contenido-de-segmentación-valores-desplegables-filtros-opciones" id="toc-contenido-de-segmentación-valores-desplegables-filtros-opciones" class="nav-link" data-scroll-target="#contenido-de-segmentación-valores-desplegables-filtros-opciones"><span class="header-section-number">2.3.2</span> Contenido de segmentación (valores desplegables, filtros, opciones):</a></li>
+  </ul></li>
+  <li><a href="#bordes-y-estética-visual" id="toc-bordes-y-estética-visual" class="nav-link" data-scroll-target="#bordes-y-estética-visual"><span class="header-section-number">2.4</span> Bordes y Estética Visual</a></li>
+  <li><a href="#indicadores-positivos-y-negativos" id="toc-indicadores-positivos-y-negativos" class="nav-link" data-scroll-target="#indicadores-positivos-y-negativos"><span class="header-section-number">2.5</span> Indicadores Positivos y Negativos</a></li>
+  <li><a href="#ejemplo-visual" id="toc-ejemplo-visual" class="nav-link" data-scroll-target="#ejemplo-visual"><span class="header-section-number">2.6</span> Ejemplo visual</a></li>
   </ul>
 </nav>
     </div>
@@ -158,20 +166,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FicoWaze</h1>
-<p class="subtitle lead">Herramienta de Visualización</p>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Estructura y Estilo de los Tableros (Dashboards)</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Data Science </p>
-          </div>
-  </div>
     
   
     
@@ -182,17 +183,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-
-<section id="welcome" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="welcome">Welcome</h2><p><img src="logo_.png" title="FicoWaze" class="quarto-cover-image img-fluid"></p>
-<p>Te damos la bienvenida a la guía oficial para la elaboración de tableros de control del proyecto <code>FicoWaze</code>. Este documento tiene como objetivo estandarizar y centralizar el desarrollo de tableros de riesgos en toda la organización, asegurando que cada unidad de riesgos del negocio cuente con visualizaciones consistentes, actualizadas y alineadas con los objetivos estratégicos de la gestión de riesgos.</p>
-<p><code>FicoWaze</code> nace con la visión de convertirse en el repositorio único de tableros de Power BI para la toma de decisiones en materia de riesgos, facilitando la trazabilidad, el análisis comparativo entre bancas, y promoviendo una cultura de datos accesibles y útil para todos los equipos de riesgo.</p>
-<p>Cada lider encargado de desarrollar los tableros de su área de riesgos correspondiente encontrará en esta guía los lineamientos de visualización y criterios mínimos que deben considerar al momento de construir sus tableros. Además, se incluyen ejemplos, formatos sugeridos y recursos complementarios que permitirán acelerar y homogenizar el trabajo.</p>
-<p>Este documento no reemplaza los conocimientos técnicos previos sobre herramientas de visualización o análisis de datos, pero sirve como punto de partida común para asegurar la coherencia y el impacto del proyecto FicoWaze en toda la organización.</p>
+<p>Los tableros desarrollados bajo esta iniciativa deben seguir una estructura visual homogénea y alineada a los lineamientos de identidad corporativa, garantizando así una experiencia de usuario uniforme, profesional y clara entre las diferentes bancas de riesgos.</p>
+<p>A continuación se describen los elementos visuales, sus características y consideraciones generales que deben aplicarse a todos los tableros:</p>
+<section id="título-del-dashboard" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="título-del-dashboard"><span class="header-section-number">2.1</span> Título del Dashboard</h2>
+<ul>
+<li><p>Fuente: Arial</p></li>
+<li><p>Tamaño: 20</p></li>
+<li><p>Color: #001945</p></li>
+</ul>
+<p>Debe ser claro, específico y reflejar el propósito del tablero (por ejemplo: “Indicadores de Mora”)</p>
 </section>
-<section id="authors" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="authors">Authors</h2>
-<p>© Data Science 2025. Derechos Reservados</p>
+<section id="gráficos" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="gráficos"><span class="header-section-number">2.2</span> Gráficos</h2>
+<p>Los gráficos deben mantener consistencia visual y usar paletas de colores. Ya sea usar degradado del color para matices matices.</p>
+<p>por ejemplo:</p>
+<p><img src="graficos_color.png" class="img-fluid"></p>
+</section>
+<section id="segmentación-de-datos" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="segmentación-de-datos"><span class="header-section-number">2.3</span> Segmentación de Datos</h2>
+<section id="títulos-de-segmentación" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="títulos-de-segmentación"><span class="header-section-number">2.3.1</span> Títulos de segmentación:</h3>
+<ul>
+<li><p><strong>Fuente:</strong> Segoe UI Light</p></li>
+<li><p><strong>Tamaño:</strong> 10</p></li>
+<li><p><strong>Color:</strong> #001945</p></li>
+</ul>
+</section>
+<section id="contenido-de-segmentación-valores-desplegables-filtros-opciones" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="contenido-de-segmentación-valores-desplegables-filtros-opciones"><span class="header-section-number">2.3.2</span> Contenido de segmentación (valores desplegables, filtros, opciones):</h3>
+<ul>
+<li><p><strong>Fuente:</strong> Segoe UI Light</p></li>
+<li><p><strong>Tamaño:</strong> 8</p></li>
+<li><p><strong>Color:</strong> #001945</p></li>
+</ul>
+</section>
+</section>
+<section id="bordes-y-estética-visual" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="bordes-y-estética-visual"><span class="header-section-number">2.4</span> Bordes y Estética Visual</h2>
+<ul>
+<li><p><strong>Bordes de elementos visuales:</strong> Blanco (#FFFFFF)</p></li>
+<li><p><strong>Fondo del Lienzo:</strong> Blanco (#FFFFFF) con transparencia del 20%</p></li>
+<li><p><strong>Papel tapiz de fondo:</strong> #CCCCCC</p></li>
+<li><p><strong>Esquinas redondeadas:</strong> 7 px</p></li>
+</ul>
+</section>
+<section id="indicadores-positivos-y-negativos" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="indicadores-positivos-y-negativos"><span class="header-section-number">2.5</span> Indicadores Positivos y Negativos</h2>
+<p>Para facilitar la lectura rápida de los datos:</p>
+<ul>
+<li><p><strong>Indicador(s) que presenten contextos o situaciones positivas:</strong> Verde (#008000)</p></li>
+<li><p><strong>Indicador(s) que representen contextos o situaciones negativas:</strong> Rojo (#FF0000)</p></li>
+<li><p><strong>Indicador(s) que representen contextos o situaciones neutras o sin variación:</strong> Gris (#808080)</p></li>
+</ul>
+</section>
+<section id="ejemplo-visual" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="ejemplo-visual"><span class="header-section-number">2.6</span> Ejemplo visual</h2>
+<p>A continuación, se presenta un ejemplo del diseño de un tablero conforme a los lineamientos definidos:</p>
+<p><img src="dash1.png" class="img-fluid"></p>
+<p><img src="dash2.png" class="img-fluid"></p>
 
 
 </section>
@@ -620,10 +669,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./l01_regression.html" class="pagination-link" aria-label="Hoja de Inicio">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Hoja de Inicio</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./l01_regression.html" class="pagination-link" aria-label="Hoja de Inicio">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Hoja de Inicio</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./l03_smoothing.html" class="pagination-link" aria-label="Anexos">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Anexos</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

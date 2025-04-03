@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Data Science">
 
-<title>FicoWaze</title>
+<title>3&nbsp; Anexos – FicoWaze</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./l01_regression.html" rel="next">
+<link href="./l02_tsintro.html" rel="prev">
 <link href="./logo_.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./l03_smoothing.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Anexos</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -116,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome</span></a>
   </div>
 </li>
@@ -134,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./l03_smoothing.html" class="sidebar-item-text sidebar-link">
+  <a href="./l03_smoothing.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Anexos</span></span></a>
   </div>
 </li>
@@ -143,35 +142,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a></li>
-  <li><a href="#authors" id="toc-authors" class="nav-link" data-scroll-target="#authors">Authors</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FicoWaze</h1>
-<p class="subtitle lead">Herramienta de Visualización</p>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Anexos</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Data Science </p>
-          </div>
-  </div>
     
   
     
@@ -182,20 +167,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-
-<section id="welcome" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="welcome">Welcome</h2><p><img src="logo_.png" title="FicoWaze" class="quarto-cover-image img-fluid"></p>
-<p>Te damos la bienvenida a la guía oficial para la elaboración de tableros de control del proyecto <code>FicoWaze</code>. Este documento tiene como objetivo estandarizar y centralizar el desarrollo de tableros de riesgos en toda la organización, asegurando que cada unidad de riesgos del negocio cuente con visualizaciones consistentes, actualizadas y alineadas con los objetivos estratégicos de la gestión de riesgos.</p>
-<p><code>FicoWaze</code> nace con la visión de convertirse en el repositorio único de tableros de Power BI para la toma de decisiones en materia de riesgos, facilitando la trazabilidad, el análisis comparativo entre bancas, y promoviendo una cultura de datos accesibles y útil para todos los equipos de riesgo.</p>
-<p>Cada lider encargado de desarrollar los tableros de su área de riesgos correspondiente encontrará en esta guía los lineamientos de visualización y criterios mínimos que deben considerar al momento de construir sus tableros. Además, se incluyen ejemplos, formatos sugeridos y recursos complementarios que permitirán acelerar y homogenizar el trabajo.</p>
-<p>Este documento no reemplaza los conocimientos técnicos previos sobre herramientas de visualización o análisis de datos, pero sirve como punto de partida común para asegurar la coherencia y el impacto del proyecto FicoWaze en toda la organización.</p>
-</section>
-<section id="authors" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="authors">Authors</h2>
-<p>© Data Science 2025. Derechos Reservados</p>
+<p>Paleta de colores elaborada por <code>Imagen Corporativa</code>.</p>
+<p><img src="dash3.png" class="img-fluid"></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -620,11 +595,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./l02_tsintro.html" class="pagination-link" aria-label="Estructura y Estilo de los Tableros (Dashboards)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Estructura y Estilo de los Tableros (Dashboards)</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./l01_regression.html" class="pagination-link" aria-label="Hoja de Inicio">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Hoja de Inicio</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

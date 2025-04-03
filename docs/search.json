@@ -18,5 +18,165 @@
     "crumbs": [
       "Welcome"
     ]
+  },
+  {
+    "objectID": "l01_regression.html",
+    "href": "l01_regression.html",
+    "title": "1  Hoja de Inicio",
+    "section": "",
+    "text": "1.1 Título Principal del Tablero\nEl título debe ser representativo del contenido del tablero (por ejemplo: “Cartera Créditicia”).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hoja de Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "l01_regression.html#título-principal-del-tablero",
+    "href": "l01_regression.html#título-principal-del-tablero",
+    "title": "1  Hoja de Inicio",
+    "section": "",
+    "text": "Fuente: Segoe UI\nTamaño: 32\nColor: #001945",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hoja de Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "l01_regression.html#banner-institucional",
+    "href": "l01_regression.html#banner-institucional",
+    "title": "1  Hoja de Inicio",
+    "section": "1.2 Banner Institucional",
+    "text": "1.2 Banner Institucional\nDebe colocarse en la parte superior del tablero, incluyendo el logotipo de la organización y el eslogan institucional.\n\nAltura del banner: 120 px\nColor: #0058CB\nBordes: No aplicar\n\nLes dejamos el link para descargar Banner Institucional: Accede aquí para descargar Banner Institucional, logo e iconos",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hoja de Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "l01_regression.html#navegador-de-páginas",
+    "href": "l01_regression.html#navegador-de-páginas",
+    "title": "1  Hoja de Inicio",
+    "section": "1.3 Navegador de Páginas",
+    "text": "1.3 Navegador de Páginas\nPermite al usuarió moverse entre las secciones o vistas del tablero:\n\nForma: Rectángulo redondeado\nAltura: 50 px\nAncho: Personalizable según número de botones\nFuente: Segoe UI\nTamaño de fuente: 10\nColor de fuente: #001945\n\nCada botón del navegador debe tener un nombre claro (ej: “Inicio”, “Cartera Crediticia”, “Clientes Mayor Provisión”)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hoja de Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "l01_regression.html#fecha-de-actualización-de-datos",
+    "href": "l01_regression.html#fecha-de-actualización-de-datos",
+    "title": "1  Hoja de Inicio",
+    "section": "1.4 Fecha de Actualización de Datos",
+    "text": "1.4 Fecha de Actualización de Datos\nSe debe incluir una sección que indique la última fecha en que se actualizaron los datos del tablero.\n\nFuente: Segoe UI\nTamaño de texto: 12\nTamaño de número: 20\nColor: #001945\n\nDebe ubicarse de forma visible, justo debajo del navegador de páginas o en la parte inferior del encabezado.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hoja de Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "l01_regression.html#section",
+    "href": "l01_regression.html#section",
+    "title": "1  Hoja de Inicio",
+    "section": "1.5 ",
+    "text": "1.5",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hoja de Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "l01_regression.html#ejemplo-visual",
+    "href": "l01_regression.html#ejemplo-visual",
+    "title": "1  Hoja de Inicio",
+    "section": "1.5 Ejemplo Visual",
+    "text": "1.5 Ejemplo Visual\nA continuación se presenta un ejemplo de cómo debe estructurarse visualmente la Hoja de Inicio con los elementos descritos previamente:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hoja de Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "l02_tsintro.html",
+    "href": "l02_tsintro.html",
+    "title": "2  Estructura y Estilo de los Tableros (Dashboards)",
+    "section": "",
+    "text": "2.1 Título del Dashboard\nDebe ser claro, específico y reflejar el propósito del tablero (por ejemplo: “Indicadores de Mora”)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Estructura y Estilo de los Tableros (Dashboards)</span>"
+    ]
+  },
+  {
+    "objectID": "l02_tsintro.html#título-del-dashboard",
+    "href": "l02_tsintro.html#título-del-dashboard",
+    "title": "2  Estructura y Estilo de los Tableros (Dashboards)",
+    "section": "",
+    "text": "Fuente: Arial\nTamaño: 20\nColor: #001945",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Estructura y Estilo de los Tableros (Dashboards)</span>"
+    ]
+  },
+  {
+    "objectID": "l02_tsintro.html#gráficos",
+    "href": "l02_tsintro.html#gráficos",
+    "title": "2  Estructura y Estilo de los Tableros (Dashboards)",
+    "section": "2.2 Gráficos",
+    "text": "2.2 Gráficos\nLos gráficos deben mantener consistencia visual y usar paletas de colores. Ya sea usar degradado del color para matices matices.\npor ejemplo:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Estructura y Estilo de los Tableros (Dashboards)</span>"
+    ]
+  },
+  {
+    "objectID": "l02_tsintro.html#segmentación-de-datos",
+    "href": "l02_tsintro.html#segmentación-de-datos",
+    "title": "2  Estructura y Estilo de los Tableros (Dashboards)",
+    "section": "2.3 Segmentación de Datos",
+    "text": "2.3 Segmentación de Datos\n\n2.3.1 Títulos de segmentación:\n\nFuente: Segoe UI Light\nTamaño: 10\nColor: #001945\n\n\n\n2.3.2 Contenido de segmentación (valores desplegables, filtros, opciones):\n\nFuente: Segoe UI Light\nTamaño: 8\nColor: #001945",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Estructura y Estilo de los Tableros (Dashboards)</span>"
+    ]
+  },
+  {
+    "objectID": "l02_tsintro.html#bordes-y-estética-visual",
+    "href": "l02_tsintro.html#bordes-y-estética-visual",
+    "title": "2  Estructura y Estilo de los Tableros (Dashboards)",
+    "section": "2.4 Bordes y Estética Visual",
+    "text": "2.4 Bordes y Estética Visual\n\nBordes de elementos visuales: Blanco (#FFFFFF)\nFondo del Lienzo: Blanco (#FFFFFF) con transparencia del 20%\nPapel tapiz de fondo: #CCCCCC\nEsquinas redondeadas: 7 px",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Estructura y Estilo de los Tableros (Dashboards)</span>"
+    ]
+  },
+  {
+    "objectID": "l02_tsintro.html#indicadores-positivos-y-negativos",
+    "href": "l02_tsintro.html#indicadores-positivos-y-negativos",
+    "title": "2  Estructura y Estilo de los Tableros (Dashboards)",
+    "section": "2.5 Indicadores Positivos y Negativos",
+    "text": "2.5 Indicadores Positivos y Negativos\nPara facilitar la lectura rápida de los datos:\n\nIndicador(s) que presenten contextos o situaciones positivas: Verde (#008000)\nIndicador(s) que representen contextos o situaciones negativas: Rojo (#FF0000)\nIndicador(s) que representen contextos o situaciones neutras o sin variación: Gris (#808080)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Estructura y Estilo de los Tableros (Dashboards)</span>"
+    ]
+  },
+  {
+    "objectID": "l02_tsintro.html#section",
+    "href": "l02_tsintro.html#section",
+    "title": "2  Estructura y Estilo de los Tableros (Dashboards)",
+    "section": "2.7 ",
+    "text": "2.7",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Estructura y Estilo de los Tableros (Dashboards)</span>"
+    ]
+  },
+  {
+    "objectID": "l02_tsintro.html#ejemplo-visual",
+    "href": "l02_tsintro.html#ejemplo-visual",
+    "title": "2  Estructura y Estilo de los Tableros (Dashboards)",
+    "section": "2.6 Ejemplo visual",
+    "text": "2.6 Ejemplo visual\nA continuación, se presenta un ejemplo del diseño de un tablero conforme a los lineamientos definidos:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Estructura y Estilo de los Tableros (Dashboards)</span>"
+    ]
+  },
+  {
+    "objectID": "l03_smoothing.html",
+    "href": "l03_smoothing.html",
+    "title": "3  Anexos",
+    "section": "",
+    "text": "Paleta de colores elaborada por Imagen Corporativa.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Anexos</span>"
+    ]
   }
 ]
