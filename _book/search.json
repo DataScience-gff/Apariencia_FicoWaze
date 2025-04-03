@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Apariencia_FicoWaze",
+    "section": "",
+    "text": "Preface\nThis is a collection of lecture notes on applied time series analysis and forecasting using the statistical programming language R. Many of these lectures are based on the original notes by Y. R. Gel and C. Cutler for the course STAT-443 Forecasting (University of Waterloo, Canada) adapted and expanded by V. Lyubchich for the course MEES-713 Environmental Statistics 2 (University of Maryland, USA).\nEach lecture starts by listing the learning objectives and required reading materials, with additional references in the text. The notes introduce the methods and give a few examples but are less detailed than the reading materials. The notes do not substitute a textbook.\nThe audience is expected to be familiar with R programming and the following statistical concepts and methods: probability distributions, sampling inference and hypothesis testing, correlation analysis, and regression analysis (including simple and multiple linear regression, mixed-effects models, generalized linear models, and generalized additive models).",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "index.html#authors",
+    "href": "index.html#authors",
+    "title": "Apariencia_FicoWaze",
+    "section": "Authors",
+    "text": "Authors\nVyacheslav Lyubchich is an Associate Research Professor at the University of Maryland Center for Environmental Science. https://www.umces.edu/vyacheslav-lyubchich\nYulia R. Gel is a Professor of Statistics at the University of Texas at Dallas. https://personal.utdallas.edu/~yxg142030/",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "Apariencia_FicoWaze",
+    "section": "Citation",
+    "text": "Citation\nLyubchich, V. and Gel, Y. R. (2025) Time Series Analysis: Lecture Notes with Examples in R. Edition 2025-03. https://vlyubchich.github.io/tsar/",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "Apariencia_FicoWaze",
+    "section": "License",
+    "text": "License\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+    "crumbs": [
+      "Preface"
+    ]
+  }
+]

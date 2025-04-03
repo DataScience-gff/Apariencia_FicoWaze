@@ -1,0 +1,37 @@
+---
+engine: knitr
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Welcome {.unnumbered}
+
+Te damos la bienvenida a la guía oficial para la elaboración de tableros
+de control del proyecto `FicoWaze`. Este documento tiene como objetivo
+estandarizar y centralizar el desarrollo de tableros de riesgos en toda
+la organización, asegurando que cada unidad de riesgos del negocio
+cuente con visualizaciones consistentes, actualizadas y alineadas con
+los objetivos estratégicos de la gestión de riesgos.
+
+`FicoWaze` nace con la visión de convertirse en el repositorio único de
+tableros de Power BI para la toma de decisiones en materia de riesgos,
+facilitando la trazabilidad, el análisis comparativo entre bancas, y
+promoviendo una cultura de datos accesibles y útil para todos los
+equipos de riesgo.
+
+Cada lider encargado de desarrollar los tableros de su área de riesgos
+correspondiente encontrará en esta guía los lineamientos de
+visualización y criterios mínimos que deben considerar al momento de
+construir sus tableros. Además, se incluyen ejemplos, formatos sugeridos
+y recursos complementarios que permitirán acelerar y homogenizar el
+trabajo.
+
+Este documento no reemplaza los conocimientos técnicos previos sobre
+herramientas de visualización o análisis de datos, pero sirve como punto
+de partida común para asegurar la coherencia y el impacto del proyecto
+FicoWaze en toda la organización.
+
+## Authors {.unnumbered}
+
+© Data Science 2025. Derechos Reservados
