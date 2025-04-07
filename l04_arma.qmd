@@ -1,0 +1,37 @@
+---
+output: html_document
+editor_options:
+    chunk_output_type: console
+---
+
+# Conexión Power BI a SQL Pool
+
+Esta sección tiene como objetivo guiar paso a paso a los usuarios para establecer una conexión entre `Power BI` y `SQL Pool`, permitiendo así la conexión de Power BI con el entorno en la nube de Azure.
+
+## Pasos para establecer la conexión
+
+1.  **Abrir Power BI Desktop** asegurese de tener instalada la ultima versión de Power BI en su equipo.
+
+2.  **Seleccionar la fuente de datos** en la pantalla de inicio, seleccione la opción `SQL Server` como tipo de fuentes de datos, tal como se aprecia en la imagen:\
+    ![](pbi1.png)
+
+3.  **Ingresar los datos del servidor** En el campo **Servidor**, escriba la dirección del endpoint del SQL Pool (`snp-xxxx-xxx-xxxxxxx-xxx.sql.azuresynapse.net`). El campo **Base de datos**, puede dejarlo vacio si desea navegar o escribir directamente el nombre si ya lo conoce.\
+    ![](pbi2.png)
+
+4.  **Opciones Avanzadas (Opcional)** Si desea conectarse a una vista, table específica o ejecutar un procedimiento almacenado, dé clic en *"Opciones avanzadas"* e introduzca la instrucción SQL correspondiente (Por ejemplo: *EXEC nombre_procedimiento*):\
+    ![](pbi3.png)
+
+5.  **Seleccione el tipo de autenticación** Seleccione el método adecuado de autenticación:
+
+    -   **Cuenta de Microsoft** ( si usa Azure Active Directory)
+
+    -   **Base de datos** (usuario y contraseña) ingrese sus credenciales y haga clic en **conectar**.
+
+        \
+        \
+        ![](pbi4.png)
+
+6.  **Finalizar conexión y cargar datos \
+    **![](pbi5.png)
+
+Una vez validada la conexión, podrá navegar por las tablas y vistas disponibles del SQL Pool.

@@ -1,0 +1,75 @@
+---
+output: html_document
+editor_options:
+    chunk_output_type: console
+---
+
+# Estructura y Estilo de los Tableros (Dashboards)
+
+Los tableros desarrollados bajo esta iniciativa deben seguir una estructura visual homogénea y alineada a los lineamientos de identidad corporativa, garantizando así una experiencia de usuario uniforme, profesional y clara entre las diferentes bancas de riesgos.
+
+A continuación se describen los elementos visuales, sus características y consideraciones generales que deben aplicarse a todos los tableros:
+
+## Título del Dashboard
+
+-   Fuente: Arial
+
+-   Tamaño: 20
+
+-   Color: #001945
+
+Debe ser claro, específico y reflejar el propósito del tablero (por ejemplo: "Indicadores de Mora")
+
+## Gráficos
+
+Los gráficos deben mantener consistencia visual y usar paletas de colores. Ya sea usar degradado del color para matices matices.
+
+por ejemplo:
+
+![](graficos_color.png)
+
+## Segmentación de Datos
+
+### Títulos de segmentación:
+
+-   **Fuente:** Segoe UI Light
+
+-   **Tamaño:** 10
+
+-   **Color:** #001945
+
+### Contenido de segmentación (valores desplegables, filtros, opciones):
+
+-   **Fuente:** Segoe UI Light
+
+-   **Tamaño:** 8
+
+-   **Color:** #001945
+
+## Bordes y Estética Visual
+
+-   **Bordes de elementos visuales:** Blanco (#FFFFFF)
+
+-   **Fondo del Lienzo:** Blanco (#FFFFFF) con transparencia del 20%
+
+-   **Papel tapiz de fondo:** #CCCCCC
+
+-   **Esquinas redondeadas:** 7 px
+
+## Indicadores Positivos y Negativos
+
+Para facilitar la lectura rápida de los datos:
+
+-   **Indicador(s) que presenten contextos o situaciones positivas:** Verde (#008000)
+
+-   **Indicador(s) que representen contextos o situaciones negativas:** Rojo (#FF0000)
+
+-   **Indicador(s) que representen contextos o situaciones neutras o sin variación:** Gris (#808080)
+
+## Ejemplo visual
+
+A continuación, se presenta un ejemplo del diseño de un tablero conforme a los lineamientos definidos:
+
+![](dash1.png)
+
+![](dash2.png)

@@ -1,0 +1,71 @@
+---
+output: html_document
+editor_options: 
+    chunk_output_type: console
+---
+
+# Hoja de Inicio
+
+Cada tablero desarrollado bajo el marco del proyecto **FicoWaze** deberá iniciar con una **Hoja de Inicio** estandarizada, cuyo propósito es brindar una primera impresión clara, institucional y funcional del usuario. Esta hoja debe facilitar la navegación y resaltar elementos clave de forma coherente entre todas las bancas de riesgos.
+
+A continuación, se detallan los componentes obligatorios que deben incluirse en esta hoja:
+
+## Título Principal del Tablero
+
+-   **Fuente:** Segoe UI
+
+-   **Tamaño:** 32
+
+-   **Color:** #001945
+
+El título debe ser representativo del contenido del tablero (por ejemplo: "Cartera Créditicia").
+
+## Banner Institucional 
+
+Debe colocarse en la parte superior del tablero, incluyendo el logotipo de la organización y el eslogan institucional.
+
+-   **Altura del banner:** 120 px
+
+-   **Color:** #0058CB
+
+-   **Bordes:** No aplicar
+
+Les dejamos el link para descargar Banner Institucional: [Accede aquí para descargar Banner Institucional, logo e iconos](https://drive.google.com/drive/folders/1gPI2XqUxtiaQSBdv775F9iZ4S1JAAxR3)
+
+## Navegador de Páginas
+
+Permite al usuarió moverse entre las secciones o vistas del tablero:
+
+-   **Forma:** Rectángulo redondeado
+
+-   **Altura:** 50 px
+
+-   **Ancho:** Personalizable según número de botones
+
+-   **Fuente:** Segoe UI
+
+-   **Tamaño** **de fuente:** 10
+
+-   **Color de fuente:** #001945
+
+Cada botón del navegador debe tener un nombre claro (ej: "Inicio", "Cartera Crediticia", "Clientes Mayor Provisión")
+
+## Fecha de Actualización de Datos
+
+Se debe incluir una sección que indique la última fecha en que se actualizaron los datos del tablero.
+
+-   **Fuente:** Segoe UI
+
+-   **Tamaño de texto:** 12
+
+-   **Tamaño de número:** 20
+
+-   **Color:** #001945
+
+Debe ubicarse de forma visible, justo debajo del navegador de páginas o en la parte inferior del encabezado.
+
+## Ejemplo Visual 
+
+A continuación se presenta un ejemplo de cómo debe estructurarse visualmente la Hoja de Inicio con los elementos descritos previamente:
+
+![](hoja_inicio_fw.png)
