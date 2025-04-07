@@ -178,5 +178,25 @@
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Anexos</span>"
     ]
+  },
+  {
+    "objectID": "l04_arma.html",
+    "href": "l04_arma.html",
+    "title": "4  Conexión Power BI a SQL Pool",
+    "section": "",
+    "text": "4.1 Pasos para establecer la conexión\nUna vez validada la conexión, podrá navegar por las tablas y vistas disponibles del SQL Pool.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Conexión Power BI a SQL Pool</span>"
+    ]
+  },
+  {
+    "objectID": "l04_arma.html#pasos-para-establecer-la-conexión",
+    "href": "l04_arma.html#pasos-para-establecer-la-conexión",
+    "title": "4  Conexión Power BI a SQL Pool",
+    "section": "",
+    "text": "Abrir Power BI Desktop asegurese de tener instalada la ultima versión de Power BI en su equipo.\nSeleccionar la fuente de datos en la pantalla de inicio, seleccione la opción SQL Server como tipo de fuentes de datos, tal como se aprecia en la imagen:\n\nIngresar los datos del servidor En el campo Servidor, escriba la dirección del endpoint del SQL Pool (snp-xxxx-xxx-xxxxxxx-xxx.sql.azuresynapse.net). El campo Base de datos, puede dejarlo vacio si desea navegar o escribir directamente el nombre si ya lo conoce.\n\nOpciones Avanzadas (Opcional) Si desea conectarse a una vista, table específica o ejecutar un procedimiento almacenado, dé clic en “Opciones avanzadas” e introduzca la instrucción SQL correspondiente (Por ejemplo: EXEC nombre_procedimiento):\n\nSeleccione el tipo de autenticación Seleccione el método adecuado de autenticación:\n\nCuenta de Microsoft ( si usa Azure Active Directory)\nBase de datos (usuario y contraseña) ingrese sus credenciales y haga clic en conectar.\n\n\n\n\nFinalizar conexión y cargar datos",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Conexión Power BI a SQL Pool</span>"
+    ]
   }
 ]
